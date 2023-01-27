@@ -1,0 +1,53 @@
+{
+    "feeds":[
+        {
+            "name":"threatfox",
+            "url":"https://threatfox.abuse.ch/export/csv/recent/",
+            "outfile_name":"threatfox_recent.csv",
+            "format":"csv",
+            "cooldown": 300
+        },
+        {
+            "name":"abuse.ch Botnet C2 IP Blacklist",
+            "url":"https://sslbl.abuse.ch/blacklist/sslipblacklist.csv",
+            "outfile_name":"abusech_Botnet_IP_blacklist.csv",
+            "format":"csv",
+            "cooldown": 300
+        },
+        {
+            "name":"threatview.io high-confidence cobalt strike C2 feed",
+            "url":"https://threatview.io/Downloads/High-Confidence-CobaltStrike-C2%20-Feeds.txt",
+            "outfile_name":"threatview_high_cconfidence_cobalt_strike_c2.csv",
+            "format":"csv",
+            "cooldown":300
+        },
+        {
+            "name":"alienvault",
+            "url": "http://reputation.alienvault.com/reputation.data",
+            "outfile_name":"alienvault.csv",
+            "format":"csv",
+            "cooldown":300
+        },
+        {
+            "name":"binarydefense banlist",
+            "url":"https://www.binarydefense.com/banlist.txt",
+            "outfile_name":"binarydefense_banlist.txt",
+            "format":"csv",
+            "cooldown":300
+        },
+        {
+            "name":"emerging threats blockrules",
+            "url":"https://rules.emergingthreats.net/blockrules/compromised-ips.txt",
+            "outfile_name":"emerging_threats_compromised.csv",
+            "format":"csv",
+            "cooldown":300
+        },
+        {
+            "name":"SANS intel feed",
+            "url":"https://isc.sans.edu/api/intelfeed",
+            "outfile_name":"sans_intel_feed.xml",
+            "format":"xml",
+            "cooldown":300
+        }
+    ]
+}
